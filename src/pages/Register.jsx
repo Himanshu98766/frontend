@@ -30,7 +30,6 @@ const Register = () => {
         });
         if(response.ok){
             alert("Registration Successful");
-            // this is test
             setUser({
                 username: "",
                 email: "",
